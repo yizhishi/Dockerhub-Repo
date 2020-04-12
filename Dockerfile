@@ -1,0 +1,2 @@
+FROM gcr.io/knative-releases/knative.dev/eventing-contrib/kafka/source/cmd/receive_adapter@sha256:35d9cfce6d6252afa2d85985d6c9afcc3433c0a69e7654aa07be3f43ea5979eb
+MAINTAINER coder
