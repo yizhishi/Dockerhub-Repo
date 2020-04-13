@@ -1,7 +1,8 @@
-FROM gcr.io/knative-releases/knative.dev/eventing-contrib/cmd/event_display@sha256:f4628e97a836c77ed38bd3b6fd3d0b06de4d5e7db6704772fe674d48b20bd477
+FROM gcr.io/knative-releases/github.com/knative/eventing-sources/cmd/event_display@sha256:bf45b3eb1e7fc4cb63d6a5a6416cf696295484a7662e0cf9ccdf5c080542c21d
 MAINTAINER coder
 
 
-# knative-releases_eventing-contrib_kafka_source_cmd_receive_adapter
-# knative-releases_eventing-contrib_kafka_source_cmd_controller
-
+# yizhishi/knative-releases_eventing-contrib_kafka_source_cmd_receive_adapter:0.9.0
+# yizhishi/knative-releases_eventing-contrib_kafka_source_cmd_controller:0.9.0
+# yizhishi/knative-releases_eventing-contrib_cmd_event_display:0.9.0
+# yizhishi/knative-releases_eventing-sources_cmd_event_display:0.9.0
